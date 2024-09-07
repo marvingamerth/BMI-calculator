@@ -8,7 +8,6 @@ def find_body_mass_index():
 
         body_mass_index = weight / ((height/100)**2)
         output.configure(text='ค่าดัชนีมวลกาย(BMI)มีค่าเท่ากับ' + str("%.2f" %body_mass_index))
-        output.configure(text='ค่าดัชนีมวลกาย(BMI)มีค่าเท่ากับ' + str("%.2f" %body_mass_index))
     except:
         messagebox.showerror("Error", "กรุณากรอกข้อมูลให้ถูกต้อง")
 
